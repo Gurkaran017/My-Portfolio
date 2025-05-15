@@ -17,9 +17,9 @@ export default function SkillSection() {
     { name: 'Node.js', percentage: 90 },
     { name: 'Tailwind CSS', percentage: 100 },
     { name: 'Responsive Design', percentage: 100 },
-    { name: 'UI/UX Design', percentage: 50 },
-    { name: 'SQL & Databases', percentage: 30 },
-    { name: 'React Native', percentage: 20 }
+    { name: 'UI/UX Design', percentage: 70 },
+    { name: 'SQL & Databases', percentage: 60 },
+    { name: 'React Native', percentage: 10 }
   ];
 
   const softSkills = [
@@ -82,7 +82,7 @@ export default function SkillSection() {
             transition={{ duration: 0.4, delay: index * 0.2 }}
             className='bg-zinc-300 rounded-full w-full h-fit my-2 flex flex-row items-center'
           >
-            <FontAwesomeIcon icon={skill.icon} className='sm:p-5 sm:w-7 text-zinc-800' />
+            <FontAwesomeIcon icon={skill.icon} className='p-5 sm:w-7 text-zinc-800' />
             <p className='text-zinc-900 font-semibold mx-4'>{skill.name}</p>
           </motion.div>
         ))}
