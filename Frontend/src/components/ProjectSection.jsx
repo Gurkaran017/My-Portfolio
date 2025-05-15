@@ -7,54 +7,7 @@ import { motion, useInView } from "framer-motion";
 
 
 const projectsData = [
-    // {
-    //     id: 1,
-    //     title: "Climate Change Web App",
-    //     description: "'One Planet Project', una web app stile cyber-futuristico per monitorare i dati del cambiamento climatico ed educare e sensibilizzare l'utente.",
-    //     image: "/images/projects/1.png",
-    //     gitUrl: "https://github.com/chiarabis/one-planet-project-web",
-    //     previewUrl: "https://one-planet-project-web.vercel.app/",
-    // },
-    // {
-    //     id: 2,
-    //     title: "Newspaper Website",
-    //     description: "Usando la API del New York Times, ho realizzato un sito web per accedere alle informazioni e alle notizie.",
-    //     image: "/images/projects/2.png",
-    //     gitUrl: "https://github.com/chiarabis/newspaper-clone-app",
-    //     previewUrl: "https://newspaper-clone-app.vercel.app/",
-    // },
-    // {
-    //     id: 3,
-    //     title: "Recipes Web App",
-    //     description: "Una web app per cercare ricette da tutto il mondo, con possibilità di varie opzioni, salvarle tra i preferiti e poter creare una lista della spesa.",
-    //     image: "/images/projects/3.png",
-    //     gitUrl: "https://github.com/chiarabis/recipes-app",
-    //     previewUrl: "https://recipes-app-hazel-zeta.vercel.app/",
-    // },
-    // {
-    //     id: 4,
-    //     title: "Moove App",
-    //     description: "App di micromobilità condivisa realizzata in Typescript. Il progetto mira a offrire una soluzione sostenibile e innovativa per il trasporto urbano.",
-    //     image: "/images/projects/4.png",
-    //     gitUrl: "https://github.com/chiarabis/moove-app",
-    //     previewUrl: "https://mooveapp.netlify.app/",
-    // },
-    // {
-    //     id: 5,
-    //     title: "Orizon API",
-    //     description: "Un progetto Node.js. Creazione di REST API per gestire un'agenzia viaggi fittizia Orizon.",
-    //     image: "/images/projects/5.png",
-    //     gitUrl: "https://github.com/chiarabis/orizon-api-nodejs",
-    //     previewUrl: "https://orizon-api-nodejs.onrender.com",
-    // },
-    // {
-    //     id: 6,
-    //     title: "Form2Doc",
-    //     description: "Tool client-side per generare documenti compilati in Word, utilizzando semplice Vanilla JS.",
-    //     image: "/images/projects/6.png",
-    //     gitUrl: "https://github.com/chiarabis/form2doc",
-    //     previewUrl: "https://form2doc.netlify.app/",
-    // }
+    
     {
     id: 1,
     title: "BookStore Full Stack App",
@@ -90,7 +43,7 @@ const projectsData = [
   {
     id: 5,
     title: "Amazon Clone",
-    description: "Amazon UI clone built with React and Firebase for authentication and cart functionality.",
+    description: "Amazon UI clone built using React with Tailwind CSS and cart functionality.",
     image: "/images/projects/amazon.PNG",
     gitUrl: "https://github.com/Gurkaran017/Amazon-Clone",
     previewUrl: "https://amazon-clone-karan.netlify.app/",
