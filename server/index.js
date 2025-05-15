@@ -65,7 +65,10 @@ dotenv.config();
 const app = express();
 const port = 5000;
 
-app.use(cors());
+app.use(cors({
+  credentials:true,
+  origin:"https://my-portfolio-wuar.onrender.com"
+  }))
 app.use(express.json());
 
 const resend = new Resend(process.env.RESEND_API_KEY);
