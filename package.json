@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server/index.js",
-    "build": "npm install && cd Frontend && npm install && npm run build",
+    "build": "npm install && cd Frontend && npm install --include=dev && npm run build",
     "start": "node server/index.js"
   },
   "keywords": [],
