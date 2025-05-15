@@ -64,7 +64,11 @@ export default function AboutSection() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <img src="/images/b.png" alt="Gurkaran coding" className="h-full object-cover" />
+          <img 
+    src="/images/b.png" 
+    alt="Gurkaran coding" 
+    className="w-full h-auto object-contain rounded-lg max-h-[500px]" // Better responsive control
+  />
         </motion.div>
 
         <motion.div
