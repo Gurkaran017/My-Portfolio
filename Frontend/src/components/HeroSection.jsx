@@ -57,6 +57,20 @@ export default function HeroSection() {
                                 GitHub
                             </button>
                         </a>
+                        <a href="https://drive.google.com/file/d/1Io9mHb5mrwVRRgh6GpEPav3qVyp2BIMF/preview" target="_blank" rel="noopener noreferrer">
+    <button className="sm:w-fit px-6 py-3 border-2 rounded-full font-semibold border-zinc-300
+    hover:border-emerald-500 hover:text-emerald-400">
+        View Resume
+    </button>
+</a>
+
+<a href="https://drive.google.com/uc?export=download&id=1Io9mHb5mrwVRRgh6GpEPav3qVyp2BIMF">
+    <button className="sm:w-fit px-6 py-3 border-2 rounded-full font-semibold border-zinc-300
+    hover:border-lime-500 hover:text-lime-400">
+        Download Resume
+    </button>
+</a>
+
                     </div>
                 </div>
 
